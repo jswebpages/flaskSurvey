@@ -2,7 +2,7 @@ from flask import Flask, request, render_template, redirect, flash, session
 from random import randint, choice, sample
 from flask_debugtoolbar import DebugToolbarExtension
 from surveys import satisfaction_survey as survey
-#help with mentor in Git
+
 app = Flask(__name__)
 
 app.config["SECRET_KEY"] = "dancingmonkey2019"
